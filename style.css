@@ -1,0 +1,47 @@
+body {
+  left: 0;
+  margin-top: -250px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+
+  background-color: lightblue;
+
+  opacity: 1;
+  transition: 2s opacity;
+}
+
+body.fade {
+  opacity: 0;
+  transition: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: courier;
+}
+
+h3 {
+	margin-left: 8em;
+  margin-right: 8em;
+}
+
+button.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Courier, 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+button.button1:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
